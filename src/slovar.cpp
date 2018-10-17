@@ -11,7 +11,7 @@ void slovar::create_new(){
     cout << "New empty slovar was created";
 }
 
-void slovar::read_from_file(){
+void slovar::read_from_file(){ // для тестов делала, можно поменять на Сашино или оставить это, как удобнее
 
     ifstream ifs("text.txt");
 
