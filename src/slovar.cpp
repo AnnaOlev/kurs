@@ -60,7 +60,7 @@ void slovar::add() {
     dictionary.insert (pair<string,int>(word,1));
 }
 
-void slovar::find_word() {
+void slovar::find_word() { // можно добавить аргумент
     string word_to_search; // можно вынести в main
     cin >> word_to_search; // можно вынести в main
     for (map<string, int>::const_iterator it = dictionary.begin(); it != dictionary.end(); ++it){
