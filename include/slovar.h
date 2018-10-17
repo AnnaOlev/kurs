@@ -25,7 +25,7 @@ class slovar
     void read_from_file();
     void find_word();
     void counter_plus(string word);
-    //void save();
+    //void save(); указала наличие функции записи в файл для наглядности, возможно у не будет другое название
     void add();
     void show();
 };
