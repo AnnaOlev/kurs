@@ -61,8 +61,8 @@ void slovar::add() {
 }
 
 void slovar::find_word() {
-    string word_to_search;
-    cin >> word_to_search;
+    string word_to_search; // можно вынести в main
+    cin >> word_to_search; // можно вынести в main
     for (map<string, int>::const_iterator it = dictionary.begin(); it != dictionary.end(); ++it){
         if (it->first == word_to_search) {
             cout << it->first << "\t\t" << it->second << std::endl;
