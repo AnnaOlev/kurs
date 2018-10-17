@@ -18,9 +18,9 @@ void slovar::read_from_file(){ // для тестов делала, можно �
     if(ifs)
     {
         string s(istreambuf_iterator<char>(ifs.rdbuf()), istreambuf_iterator<char>());
-        for(string::iterator it = s.begin(); it != s.end(); ++it)
+        for(string::iterator it = s.begin(); it != s.end(); ++it) // оставить/ добавить в другую реализацию обязательно
         {
-            if(!isalpha(*it))
+            if(!isalpha(*it)) 
             {
                 *it = ' ';
             }
@@ -39,7 +39,7 @@ void slovar::read_from_file(){ // для тестов делала, можно �
     }
     else
     {
-        std::cerr << "File not found\n";
+        cerr << "File not found\n";
     }
     ifs.close();
 
