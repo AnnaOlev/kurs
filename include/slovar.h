@@ -18,7 +18,7 @@ class slovar
         else if (type == 2)
             read_from_file();
         else
-            std::cout << "Something wrong\n";
+            cout << "Something wrong\n";
     }
 
     void create_new();
