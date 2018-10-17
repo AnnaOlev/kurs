@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1538594493 source:c:\users\Анна\kurs2\main.cpp
+	<iostream>
+	"slovar.h"
+
+1538594227 c:\users\Анна\kurs2\include\slovar.h
+	<map>
+	<string>
+	<iostream>
+
+1538594468 source:c:\users\Анна\kurs2\src\slovar.cpp
+	"slovar.h"
+	<fstream>
+	<sstream>
+	<iterator>
+	<iostream>
+
